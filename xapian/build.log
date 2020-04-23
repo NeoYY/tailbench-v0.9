@@ -1,0 +1,2 @@
+g++ -Wall -W -O3 -g -std=c++0x `./xapian-core-1.2.13/install/bin/xapian-config --cxxflags` -I../harness -c -o main.o main.cpp
+Makefile:49: recipe for target 'main.o' failed
